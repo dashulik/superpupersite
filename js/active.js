@@ -38,7 +38,7 @@
             loop: true,
             nav: false,
             dots: false,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 7000,
             smartSpeed: 1000,
             animateIn: 'fadeIn',
