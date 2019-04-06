@@ -46,8 +46,12 @@ a:focus {
   color: #000000;
   font-weight: 600;
   font-size: 16px;
-  font-family: "Raleway", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
+  font-family: 'Bangers', cursive;
  }
+.post-title a:focus, a:hover {
+        font-family: 'Bangers', cursive;
+      }
 
 ul,
 ol {
