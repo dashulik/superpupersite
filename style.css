@@ -8,6 +8,7 @@
 @import url(css/animate.css);
 @import url(css/magnific-popup.css);
 @import url(css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Bangers');
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -45,7 +46,8 @@ a:focus {
   color: #000000;
   font-weight: 600;
   font-size: 16px;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+ }
 
 ul,
 ol {
@@ -626,6 +628,9 @@ img {
       color: #ffffff;
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms; }
+      .post-title {
+        font-family: 'Bangers', cursive;
+      }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single-blog-post.style-1 .blog-content .post-title {
           font-size: 24px; } }
