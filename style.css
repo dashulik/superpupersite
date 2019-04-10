@@ -46,13 +46,15 @@ a:focus {
   color: #000000;
   font-weight: 600;
   font-size: 16px;
-  /*font-family: "Raleway", sans-serif;*/
-  font-family: 'Bangers', cursive;
+  font-family: "Raleway", sans-serif;
+  /*font-family: 'Bangers', cursive;*/
  }
-.post-title a:focus, a:hover {
+.blog-content a:focus {
         font-family: 'Bangers', cursive;
       }
-
+.blog-content a:hover {
+        font-family: 'Bangers', cursive;
+      }
 ul,
 ol {
   margin: 0; }
