@@ -1,6 +1,6 @@
 /* [Master Stylesheet - v1.0] */
 /* :: 1.0 Import Fonts */
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900");
+/*@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900");*/
 /* :: 2.0 Import All CSS */
 @import url(css/bootstrap.min.css);
 @import url(css/classy-nav.css);
@@ -9,13 +9,14 @@
 @import url(css/magnific-popup.css);
 @import url(css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
   padding: 0; }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 14px; }
 
 h1,
@@ -24,13 +25,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #000000;
   line-height: 1.3;
   font-weight: 700; }
 
 p {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #858585;
   font-size: 15px;
   line-height: 2;
@@ -46,13 +47,13 @@ a:focus {
   color: #000000;
   font-weight: 600;
   font-size: 16px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   /*font-family: 'Bangers', cursive;*/
  }
-.blog-content a:focus {
+.hero-area .blog-content a:focus {
         font-family: 'Bangers', cursive;
       }
-.blog-content a:hover {
+.hero-area .blog-content a:hover {
         font-family: 'Bangers', cursive;
       }
 ul,
@@ -95,7 +96,7 @@ img {
   margin-bottom: 70px !important; }
 
 .mb-100 {
-  margin-bottom: 100px !important; }
+  margin-bottom: 50px !important; }
 
 .ml-15 {
   margin-left: 15px !important; }
@@ -634,7 +635,7 @@ img {
       color: #ffffff;
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms; }
-      .post-title {
+      .hero-area .post-title {
         font-family: 'Bangers', cursive;
       }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -995,6 +996,13 @@ img {
       text-transform: uppercase;
       -webkit-transform: skew(30deg);
       transform: skew(30deg); }
+    .post-content p, .post-content a {
+      font-family: "Bangers", cursive;
+    }
+    .tag span {
+      font-family: "Nunito", cursive;
+      font-style: italic;
+    }
   .catagory-featured-post .post-content a {
     display: block;
     color: #ffffff;
