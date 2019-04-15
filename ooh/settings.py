@@ -25,7 +25,7 @@ SECRET_KEY = 'ur78(6ixt9cw^3=1v%tbs9e40px1j=@uczf(em(ppjyfe_ri72'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['comicsworld.online', '127.0.0.1']
 
 
 # Application definition
