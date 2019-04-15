@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>
+    {% block title %}
+    {% endblock %} ⭐️ Comics World Online</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/static/img/core-img/favicon.ico">
+
+    <!-- Stylesheet -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+    {% block scripts %} {% endblock %}
+<body>
+
+{% block content %}{% endblock %}
+
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <!-- Footer Logo -->
+        <div class="footer-logo mb-100">
+            <a href="index.html"><img src="/static/img/core-img/logo.png" alt=""></a>
+        </div>
+        <!-- Footer Content -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content text-center">
+                        <!-- Footer Nav -->
+                        <div class="footer-nav">
+                            <ul>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Closed Captioning</a></li>
+                                <li><a href="#">Site Map</a></li>
+                            </ul>
+                        </div>
+                        <!-- Social Info -->
+                        <div class="footer-social-info">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+
+                        <p class="mb-15"> you must do it! </p>
+
+                        <!-- Copywrite Text -->
+                        <p class="copywrite-text"><a href="#">
+                            Copyright &copy;<script>document.write(new Date().getFullYear());
+                        </script> All rights was not reserved | This site is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a  target="_blank">JAM team</a>
+                        </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="/static/js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="/static/js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="/static/js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="/static/js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="/static/js/active.js"></script>
+</body>
+
+</html>
