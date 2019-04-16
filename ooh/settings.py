@@ -25,7 +25,7 @@ SECRET_KEY = 'ur78(6ixt9cw^3=1v%tbs9e40px1j=@uczf(em(ppjyfe_ri72'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['comicsworld.online', '127.0.0.1']
+ALLOWED_HOSTS = ['comicsworld.online', '127.0.0.1', 'www.comicsworld.online']
 
 
 # Application definition
@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
 ]
 
 ROOT_URLCONF = 'ooh.urls'

@@ -280,8 +280,10 @@
                         <!-- Newsletter Widget -->
                         <div class="single-widget-area newsletter-widget mb-30">
                             <h4>Subscribe to our newsletter</h4>
-                            <form action="#" method="post">
-                                <input type="email" name="nl-email" id="nlemail" placeholder="Your E-mail">
+                            <form id="email-form" action="#" method="get">
+                                <!--<input type="email" name="nl-email" id="nlemail" placeholder="Your E-mail"> -->
+                                {% csrf_token %}
+                                {{ form }}
                                 <button type="submit" class="btn newsbox-btn w-100">Subscribe</button>
                             </form>
                             <p class="mt-30">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh . volutpat lobortis.</p>
