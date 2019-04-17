@@ -17,7 +17,7 @@ def index(request):
         return render(request, 'index.html')
 
 def post(request):
-    postname = request.GET('post')
+    postname = request.GET.get('post')
     if request.method == 'POST':
         sub = Subscriber()
         email = request.POST.get('nl-email')
