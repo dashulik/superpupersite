@@ -17,11 +17,12 @@ def index(request):
         return render(request, 'index.html')
 
 def post(request):
+    postname = request.GET('post')
     if request.method == 'POST':
         sub = Subscriber()
         email = request.POST.get('nl-email')
         sub.email = email
         sub.save()
-        return render(request, 'post/' + post + '.html')
+        return render(request, 'post/' + postname + '.html')
     else:
-        return render(request, 'post/' + post + '.html')
+        return render(request, 'post/' + postname + '.html')
