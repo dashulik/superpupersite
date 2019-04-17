@@ -1,0 +1,418 @@
+{% extends 'base.html' %}
+{% block title %}History of the Marvel Universe #1 Takes You on a Timely Journey{% endblock %}
+
+{% block content %}
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="newsbox-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container-fluid">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="newsboxNav">
+
+                        <!-- Nav brand -->
+                        <a href="{% url 'index' %}" class="nav-brand"><img src="/static/img/core-img/logo.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="#">Heroes</a>
+                                         <div class="megamenu">
+                                            <ul class="single-mega cn-col-4">
+                                                <li class="title">Marvel</li>
+                                                <li><a href="#">SpiderMan</a></li>
+                                                <li><a href="#">Avengers</a></li>
+                                                <li><a href="#">Captain Marvel</a></li>
+                                                <li><a href="#">Thanos</a></li>
+                                                <li><a href="#">Black Panter</a></li>
+                                                <li><a href="#">Goos The Cat</a></li>
+                                                <li><a href="#">Iron Man</a></li>
+                                                <li><a href="#">Captain America</a></li>
+                                                <li><a href="#">Thor</a></li>
+                                                <li><a href="#">Hulk</a></li>
+                                                <li><a href="#">Ant-Man</a></li>
+                                                <li><a href="#">Guardians of the Galaxy</a></li>
+                                                <li><a href="#">Doctor Strange</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li class="title">DC</li>
+                                                <li><a href="#">Batman</a></li>
+                                                <li><a href="#">Superman</a></li>
+                                                <li><a href="#">Joker</a></li>
+                                                <li><a href="#">The Flash - Wally West</a></li>
+                                                <li><a href="#">Aquaman</a></li>
+                                                <li><a href="#">Barry Allen</a></li>
+                                                <li><a href="#">Wonder Woman</a></li>
+                                                <li><a href="#">Hawkgirl</a></li>
+                                                <li><a href="#">Green Arrow</a></li>
+                                                <li><a href="#">Shazam</a></li>
+                                                <li><a href="#">Catwoman</a></li>
+                                                <li><a href="#">Nightwing</a></li>
+                                                <li><a href="#">Deadpool</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Local News</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="{% url 'index' %}">Home</a></li>
+                                            <li><a href="../catagory.html">Catagory</a></li>
+                                            <li><a href="single-post.html">Single Post</a></li>
+                                            <li><a href="../contact.html">Contact</a></li>
+                                            <li><a href="../elements.html">Elements</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Sport</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Archery</a></li>
+                                            <li><a href="#">Badminton</a></li>
+                                            <li><a href="#">Baseball</a></li>
+                                            <li><a href="#">Boxing</a></li>
+                                            <li><a href="#">Climbing</a></li>
+                                            <li><a href="#">Cricket</a></li>
+                                            <li><a href="#">Football</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Lifestyle</a></li>
+                                </ul>
+
+                                <!-- Header Add Area -->
+                                <div class="header-add-area">
+                                    <a href="#">
+                                       <img src="/static/img/bg-img/add.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Nav End -->
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breaking News Area Start ##### -->
+    <section class="breaking-news-area clearfix">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Breaking News Widget -->
+                    <div class="breaking-news-ticker d-flex flex-wrap align-items-center">
+                        <div class="title">
+                            <h6>Trending</h6>
+                        </div>
+                        <div id="breakingNewsTicker" class="ticker">
+                            <ul>
+                                <li><a href="#">The hottest news about comics universe</a></li>
+                                <li><a href="#">Welcome to JAM Team Family</a></li>
+                                <li><a href="#">This site was made by the best people for other the best people </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Breaking News Area End ##### -->
+
+    <!-- ##### Post Details Title Area Start ##### -->
+    <div class="post-details-title-area bg-overlay clearfix" style="background-image: url(/static/img/bg-img/2.jpg)">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-lg-8">
+                    <!-- Post Content -->
+                    <div class="post-content">
+                        <p class="tag"><span>Comic News</span></p>
+                        <p class="post-title">3 of the most iconic heroes in the DC universe</p>
+                        <div class="d-flex align-items-center">
+                            <span class="post-date mr-30">April 10, 2019</span>
+                            <span class="post-date">By Anthony Gramuglia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Post Details Title Area End ##### -->
+
+    <!-- ##### Post Details Area Start ##### -->
+    <section class="post-news-area section-padding-100-0 mb-70">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Post Details Content Area -->
+                <div class="col-12 col-lg-8">
+                    <div class="post-details-content mb-100">
+                        <p>Batwoman</p>
+                        <p>Why we love them: In 1956, National Comics — DC's predecessor — decided that Batman needed a love interest to prove that he wasn't in a gay relationship with Robin. The Kathy Kane incarnation of Batwoman was plenty badass despite having been created primarily as a love interest — but she was eventually killed off in 1979.</p>
+                        <p>In 2006, Batwoman was reborn as part of DC's 52 series — this time, as complete certified badass Kate Kane, who is also an out and proud lesbian.</p>
+                        <img class="mb-30" src="/static/img/bg-img/posts/iconic-heroes_1.jpg" alt="">
+                        <p>Green Lantern — in any incarnation — is a true intergalactic guardian.</p>
+                        <p>Why we love them: There have been a few Green Lanterns over the years — Hal Jordan is probably the best known, but there's also Guy Gardner, John Stewart (who was one of the first Black superheroes to grace comics in general), and Kyle Rayner, as well.</p>
+                        <p>Rings filled with the green energy of willpower and created by the Guardians of the Universe are worn by all members of the Green Lantern Corps — and anyone or anything can be a Green Lantern if they have a ring.</p>
+                        <p>So far, Green Lantern had his own live-action major motion picture debut in a film of the same name that starred Ryan Reynolds as the Hal Jordan incarnation. Reynolds himself pointedly mocked that role later on as "Deadpool," so you're probably better off reading the comics.</p>
+                        <img class="mb-30" src="/static/img/bg-img/posts/iconic-heroes_2.jpg" alt="">
+                        <p>The Atom was pretty down-to-earth in his original 1940s incarnation — but his revamped form found the ability to go sub-atomic a full year before Hank Pym over at Marvel.</p>
+                        <p>Why we love them: In the comics, after Ray Palmer disappeared, Palmer protege Ryan Choi stepped up to become the Atom thanks to creators Gail Simone and Grant Morrison in the DCU "Brave New World" series.</p>
+                        <p>Currently, the Ray Palmer version of the Atom is played by Brandon Routh in the Arrowverse CW show "Legends of Tomorrow" after he was introduced on "The Flash." Routh also played Superman on the big screen in "Superman Returns" — which is a fairly unique situation.</p>
+                        <img class="mb-30" src="/static/img/bg-img/posts/iconic-heroes_3.jpg" alt="">
+
+                    </div>
+
+                    <!-- Comment Area Start -->
+                    <div class="comment_area clearfix mb-100">
+                        <h4 class="mb-50">Comments</h4>
+
+                        <ol>
+                            <!-- Single Comment Area -->
+                            <li class="single_comment_area">
+                                <!-- Comment Content -->
+                                <div class="comment-content d-flex">
+                                    <!-- Comment Author -->
+                                    <div class="comment-author">
+                                        <img src="/static/img/bg-img/32.jpg" alt="author">
+                                    </div>
+                                    <!-- Comment Meta -->
+                                    <div class="comment-meta">
+                                        <div class="d-flex">
+                                            <a href="#" class="post-author">Olga</a>
+                                            <a href="#" class="post-date">April 11, 2019</a>
+                                            <a href="#" class="reply">Reply</a>
+                                        </div>
+                                        <p>Nice information about my lovely superman. XOXO</p>
+                                    </div>
+                                </div>
+                                <ol class="children">
+                                    <li class="single_comment_area">
+                                        <!-- Comment Content -->
+                                        <div class="comment-content d-flex">
+                                            <!-- Comment Author -->
+                                            <div class="comment-author">
+                                                <img src="/static/img/bg-img/33.jpg" alt="author">
+                                            </div>
+                                            <!-- Comment Meta -->
+                                            <div class="comment-meta">
+                                                <div class="d-flex">
+                                                    <a href="#" class="post-author">Max</a>
+                                                    <a href="#" class="post-date">April 15, 2019</a>
+                                                    <a href="#" class="reply">Reply</a>
+                                                </div>
+                                                <p>Olga, you do not need this fucking superman. Here I am!</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </li>
+
+                            <!-- Single Comment Area -->
+                            <li class="single_comment_area">
+                                <!-- Comment Content -->
+                                <div class="comment-content d-flex">
+                                    <!-- Comment Author -->
+                                    <div class="comment-author">
+                                        <img src="/static/img/bg-img/Alex.jpg" alt="author">
+                                    </div>
+                                    <!-- Comment Meta -->
+                                    <div class="comment-meta">
+                                        <div class="d-flex">
+                                            <a href="#" class="post-author">Alex</a>
+                                            <a href="#" class="post-date">April 12, 2019</a>
+                                            <a href="#" class="reply">Reply</a>
+                                        </div>
+                                        <p>I think you have to add fact about Wonder Woman!</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="post-a-comment-area mb-30 clearfix">
+                        <h4 class="mb-50">Leave a reply</h4>
+
+                        <!-- Reply Form -->
+                        <div class="contact-form-area">
+                            <form action="#" method="post">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <input type="text" class="form-control" id="name" placeholder="Name*">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <input type="email" class="form-control" id="email" placeholder="Email*">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" id="subject" placeholder="Website">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn newsbox-btn mt-30" type="submit">Submit Comment</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar Widget -->
+                <div class="col-12 col-sm-9 col-md-6 col-lg-4">
+                    <div class="sidebar-area">
+
+                        <!-- Newsletter Widget -->
+                        <div class="single-widget-area newsletter-widget mb-30">
+                            <h4>Subscribe to our newsletter</h4>
+                            <form action="#" method="post">
+                                <input type="email" name="nl-email" id="nlemail" placeholder="Your E-mail">
+                                <button type="submit" class="btn newsbox-btn w-100">Subscribe</button>
+                            </form>
+                            <p class="mt-30">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh . volutpat lobortis.</p>
+                        </div>
+
+                        <!-- Add Widget -->
+                        <div class="single-widget-area add-widget mb-30">
+                            <a href="#">
+                                <img src="/static/img/bg-img/add3.png" alt="">
+                            </a>
+                        </div>
+
+                        <!-- Latest News Widget -->
+                        <div class="single-widget-area news-widget mb-30">
+                            <h4>Latest News</h4>
+
+                            <!-- Single News Area -->
+                            <div class="single-blog-post d-flex style-4 mb-30">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail">
+                                    <a href="#"><img src="/static/img/bg-img/16.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
+                                </div>
+                            </div>
+
+                            <!-- Single News Area -->
+                            <div class="single-blog-post d-flex style-4 mb-30">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail">
+                                    <a href="#"><img src="/static/img/bg-img/17.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
+                                </div>
+                            </div>
+
+                            <!-- Single News Area -->
+                            <div class="single-blog-post d-flex style-4 mb-30">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail">
+                                    <a href="#"><img src="/static/img/bg-img/18.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
+                                </div>
+                            </div>
+
+                            <!-- Single News Area -->
+                            <div class="single-blog-post d-flex style-4 mb-30">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail">
+                                    <a href="#"><img src="/static/img/bg-img/19.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                    <span class="post-date">April 4, 2019</span>
+                                    <a href="#" class="post-title">EXCLUSIVE: Superman Kicks Superman's Ass in Justice League #21 Preview</a>
+                                </div>
+                            </div>
+
+                            <!-- Single News Area -->
+                            <div class="single-blog-post d-flex style-4 mb-30">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail">
+                                    <a href="#"><img src="/static/img/bg-img/20.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Widget Area -->
+                        <div class="single-widget-area">
+
+                            <!-- Single News Area -->
+                            <div class="single-blog-post style-2 mb-5">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail">
+                                    <a href="#"><img src="/static/img/bg-img/14.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
+                                    <a href="#" class="post-author">By Michael Smith</a>
+                                </div>
+                            </div>
+
+                            <!-- Single News Area -->
+                            <div class="single-blog-post style-2 mb-5">
+                                <!-- Blog Thumbnail -->
+                                <div class="blog-thumbnail">
+                                    <a href="#"><img src="/static/img/bg-img/15.jpg" alt=""></a>
+                                </div>
+
+                                <!-- Blog Content -->
+                                <div class="blog-content">
+                                    <span class="post-date">June 20, 2018</span>
+                                    <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
+                                    <a href="#" class="post-author">By Michael Smith</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Post Details Area End ##### -->
+{% endblock %}
