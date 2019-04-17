@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/templates/post/iconic-heroes.html" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/templates/post/spiderman-endgame.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/templates/post/spiderman.html" charset="UTF-8" />
   </component>
 </project>
