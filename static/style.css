@@ -135,10 +135,10 @@ img {
 /* :: 3.3.0 Section Padding */
 .section-padding-100 {
   padding-top: 20px;
-  padding-bottom: 100px; }
+  padding-bottom: 30px; }
 
 .section-padding-100-0 {
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 0; }
 
 .section-padding-0-100 {
@@ -146,7 +146,7 @@ img {
   padding-bottom: 100px; }
 
 .section-padding-100-70 {
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 70px; }
 
 /* :: 3.4.0 Preloader */
