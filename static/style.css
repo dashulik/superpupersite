@@ -357,7 +357,7 @@ img {
         .header-area .newsbox-main-menu .classy-navbar {
           height: 90px; } }
       .header-area .newsbox-main-menu .classy-navbar .nav-brand {
-        max-width: 160px;
+        max-width: 400px;
         margin-right: 30px; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .header-area .newsbox-main-menu .classy-navbar .nav-brand {
